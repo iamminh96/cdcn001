@@ -643,6 +643,7 @@ figure.effect p {
 	padding: 0 1em;
 	max-width: 150px;
 	border-right: 4px solid #fff;
+  color: rgba(68, 178, 114, 0.7);
 	text-align: right;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
@@ -650,6 +651,7 @@ figure.effect p {
 }
 figure.effect h2 {
 	text-align: left;
+  color: rgba(68, 178, 114, 0.7)
 }
 figure.effect:hover img {
 	opacity: 0.6;
@@ -662,8 +664,15 @@ figure.effect:hover figcaption::before {
 }
 figure.effect:hover p {
 	opacity: 1;
+  color:white;
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
+}
+figure.effect:hover h2 {
+  opacity: 1;
+  color:white;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
 }
 /* =====================
    End portfolio
